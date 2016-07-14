@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    @media (min-width: 768px) {
+      .toggle11 {
+        display: none;
+      }
+    }
+    .toggle11{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navi22 {
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+    }
+    .navi22 > li {
+      position: relative;
+      display: block;
+    }
+    .navi22 > li > a {
+      position: relative;
+      display: block;
+      padding: 10px 15px;
+    }
+    .navi22 > li > a:hover,
+    .navi22 > li > a:focus {
+      text-decoration: none;
+      background-color: #eee;
+    }
+    </style>
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+      <nav>
+        <div class="navbar-header">
+          <button type="button" class="toggle11 collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span>★</span>
+          </button>
+          <a class="navbar-brand" href="#">NOMBRE DE LA PAGINA</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          
+          <ul class="navi22 navbar-nav">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">SERVICIOS</a></li>
+          </ul>
+        </div>
+      </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
